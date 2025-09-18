@@ -20,7 +20,7 @@ Whenever the sensor detects vibration, the LED will turn **ON**, otherwise it st
 ## Arduino Code
 See the file [`vibration_led.ino`](vibration_led.ino) in this repository.
 
-## 🚀 How it Works
+## How it Works
 1. The LM393 comparator on the sensor module outputs **HIGH** when vibration is detected.  
 2. NodeMCU reads this signal from pin **D2**.  
 3. If HIGH → LED turns ON (pin D5 = HIGH).  
